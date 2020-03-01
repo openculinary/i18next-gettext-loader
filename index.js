@@ -14,6 +14,6 @@ module.exports = function (source) {
 
   // Convert to i18next format (already stringified)
   converter.gettextToI18next(language, source, options).then(function (data) {
-    callback(null, "module.exports = " + data + ";")
+    callback(null, data)
   })
 }
