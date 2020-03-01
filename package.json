@@ -1,28 +1,29 @@
 {
-  "name": "i18next-po-loader",
-  "version": "1.0.1",
-  "description": "Load gettext PO files as i18next format directly in webpack",
+  "name": "i18next-gettext-loader",
+  "version": "1.0.0",
+  "description": "Convert gettext PO files into i18next JSON format during webpack builds",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/queicherius/i18next-po-loader.git"
+    "url": "git+https://github.com/openculinary/i18next-gettext-loader.git"
   },
   "keywords": [
+    "gettext",
     "i18next",
-    "webpack",
-    "loader",
     "json",
-    "po"
+    "loader",
+    "po",
+    "webpack"
   ],
-  "author": "queicherius@gmail.com",
+  "author": "james@reciperadar.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/queicherius/i18next-po-loader/issues"
+    "url": "https://github.com/openculinary/i18next-gettext-loader/issues"
   },
-  "homepage": "https://github.com/queicherius/i18next-po-loader#readme",
+  "homepage": "https://github.com/openculinary/i18next-gettext-loader",
   "dependencies": {
     "i18next-conv": "^3.0.1"
   }
