@@ -1,15 +1,13 @@
-### :boom: Careful: This package is no longer maintained and is only here for historic reasons. This means you should very likely not use it. You have been warned. :boom:
+# i18next-gettext-loader
 
----
+Convert gettext PO files into i18next JSON format during webpack builds.
 
-# i18next-po-loader
-
-> Load gettext PO files as [i18next](http://i18next.com/) format directly in webpack
+Forked from the no-longer-maintained [i18next-po-loader](https://github.com/queicherius/i18next-po-loader).
 
 ## Install
 
 ```bash
-npm install i18next-po-loader --save-dev
+yarn add i18next-gettext-loader --dev
 ```
 
 ## Webpack config
@@ -17,19 +15,8 @@ npm install i18next-po-loader --save-dev
 ```js
 {
   test: /\.po$/, 
-  loaders: ['i18next-po-loader']
+  use: [
+    {'loader': 'i18next-gettext-loader'}
+  ]
 }
-```
-
-## Usage
-
-```js
-i18next.init({
-  nsSeparator: false,
-  keySeparator: false,
-  lng: 'en',
-  resources: {
-    de: {translation: require('./translations/de.po')}
-  }
-})
 ```
