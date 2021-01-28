@@ -1,4 +1,4 @@
-# i18next-gettext-loader
+# @openculinary/i18next-gettext-loader
 
 Convert gettext PO files into i18next JSON format during webpack builds.
 
@@ -7,7 +7,7 @@ Forked from the no-longer-maintained [i18next-po-loader](https://github.com/quei
 ## Install
 
 ```bash
-yarn add i18next-gettext-loader --dev
+yarn add @openculinary/i18next-gettext-loader --dev
 ```
 
 ## Webpack config
@@ -16,7 +16,7 @@ yarn add i18next-gettext-loader --dev
 {
   test: /\.po$/, 
   use: [
-    {'loader': 'i18next-gettext-loader'}
+    {'loader': '@openculinary/i18next-gettext-loader'}
   ]
 }
 ```
