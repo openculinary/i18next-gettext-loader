@@ -1,6 +1,6 @@
 {
   "name": "@openculinary/i18next-gettext-loader",
-  "version": "1.0.1",
+  "version": "1.0.2-beta.0",
   "description": "Convert gettext PO files into i18next JSON format during webpack builds",
   "main": "index.js",
   "scripts": {
