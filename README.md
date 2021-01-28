@@ -2,7 +2,7 @@
 
 Convert gettext PO files into i18next JSON format during webpack builds.
 
-Forked from the no-longer-maintained [i18next-po-loader](https://github.com/queicherius/i18next-po-loader).
+Forked from a no-longer-maintained [po-loader with support for i18next](https://github.com/queicherius/i18next-po-loader).
 
 ## Install
 
