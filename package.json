@@ -26,5 +26,9 @@
   "homepage": "https://github.com/openculinary/i18next-gettext-loader",
   "dependencies": {
     "i18next-conv": "^9.2.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "next"
   }
 }
