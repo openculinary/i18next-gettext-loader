@@ -1,0 +1,5 @@
+"Language: en\n"
+"Plural-Forms: nplurals=2\n"
+
+msgid "Hello world!"
+msgstr "Hello world!"
