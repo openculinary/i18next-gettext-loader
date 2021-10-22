@@ -4,7 +4,13 @@
   "description": "Convert gettext PO files into i18next JSON format during webpack builds",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "fixtures/*"
+    ]
   },
   "repository": {
     "type": "git",
@@ -30,5 +36,15 @@
   "publishConfig": {
     "access": "public",
     "tag": "next"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "json-loader": "^0.5.7",
+    "loader-utils": "^2.0.0",
+    "memfs": "^3.3.0",
+    "webpack": "^5.59.1"
   }
 }
