@@ -38,13 +38,13 @@
     "tag": "next"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "babel-jest": "^27.3.1",
-    "jest": "^27.3.1",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
     "json-loader": "^0.5.7",
-    "loader-utils": "^2.0.0",
-    "memfs": "^3.3.0",
-    "webpack": "^5.59.1"
+    "loader-utils": "^2.0.2",
+    "memfs": "^3.4.1",
+    "webpack": "^5.72.1"
   }
 }
