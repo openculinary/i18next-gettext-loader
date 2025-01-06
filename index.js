@@ -1,6 +1,6 @@
-const converter = require('i18next-conv')
+import * as converter from 'i18next-conv';
 
-module.exports = function (source) {
+export default function (source) {
   this.cacheable && this.cacheable()
   const callback = this.async()
   const options = this.getOptions() || {}
