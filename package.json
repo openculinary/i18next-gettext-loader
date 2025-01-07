@@ -1,10 +1,11 @@
 {
   "name": "@openculinary/i18next-gettext-loader",
+  "type": "module",
   "version": "1.0.4-beta.0",
   "description": "Convert gettext PO files into i18next JSON format during webpack builds",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
   },
   "jest": {
     "testEnvironment": "node",
@@ -31,7 +32,8 @@
   },
   "homepage": "https://github.com/openculinary/i18next-gettext-loader",
   "dependencies": {
-    "i18next-conv": "^12.1.1"
+    "glob": "10.1.0",
+    "i18next-conv": "^15.1.1"
   },
   "publishConfig": {
     "access": "public",

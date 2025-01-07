@@ -1,6 +1,11 @@
 import path from "path";
 import webpack from "webpack";
 import { createFsFromVolume, Volume } from "memfs";
+import { fileURLToPath } from "url";
+
+// Credit: https://github.com/nodejs/help/issues/2907
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default (fixture, options = {}) => {
   const compiler = webpack({
