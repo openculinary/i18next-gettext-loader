@@ -5,6 +5,7 @@
   "description": "Convert gettext PO files into i18next JSON format during webpack builds",
   "main": "index.js",
   "scripts": {
+    "": "// 2025-10-15: experimental modules option still required; ref: https://github.com/b0z1/i18next-gettext-loader/pull/1#discussion_r2433104586",
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
   },
   "jest": {
