@@ -35,7 +35,7 @@
   "devDependencies": {
     "json-loader": "^0.5.7",
     "mocha": "^11.7.5",
-    "memfs": "^4.57.1",
-    "webpack": "^5.105.4"
+    "memfs": "^4.57.2",
+    "webpack": "^5.106.2"
   }
 }
