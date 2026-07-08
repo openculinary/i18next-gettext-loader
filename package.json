@@ -5,7 +5,7 @@
   "description": "Convert gettext PO files into i18next JSON format during webpack builds",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,6 @@
   },
   "devDependencies": {
     "json-loader": "^0.5.7",
-    "mocha": "^v12.0.0-beta-9.4",
     "memfs": "^4.57.2",
     "webpack": "^5.106.2"
   }
