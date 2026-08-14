@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "json-loader": "^0.5.7",
-    "memfs": "^4.57.2",
-    "webpack": "^5.106.2"
+    "memfs": "^4.68.1",
+    "webpack": "^5.109.3"
   }
 }
