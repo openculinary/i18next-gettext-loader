@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/openculinary/i18next-gettext-loader",
   "dependencies": {
-    "i18next-conv": "^16.0.0"
+    "i18next-conv": "^17.0.0"
   },
   "publishConfig": {
     "access": "public",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "json-loader": "^0.5.7",
-    "memfs": "^4.68.1",
-    "webpack": "^5.109.3"
+    "memfs": "^4.69.1",
+    "webpack": "^5.110.3"
   }
 }
